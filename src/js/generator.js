@@ -69,5 +69,5 @@ function generate(number_of_sentences) {
 
 // Replaces the text in the document.
 function update_text() {
-    document.getElementById('text').innerHTML = generate(5);
+    document.getElementById('text').innerHTML = generate(3);
 }
