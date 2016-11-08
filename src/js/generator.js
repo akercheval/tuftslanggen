@@ -16,32 +16,33 @@ function parse_sentence(sentence) {
 
             parts = token.split('-');
             switch(parts[0]) {
-                case 'verb':
-                    items = vocab.verbs[parts[1]];
 
-                    switch(parts[2]) {
-                        case 'root':
-                            output = output + items[Math.floor(Math.random() * items.length)][0];
-                            break;
-                        case 'past':
-                            output = output + items[Math.floor(Math.random() * items.length)][1];
-                            break;
-                        case 'present':
-                            output = output + items[Math.floor(Math.random() * items.length)][2];
-                            break;
-                    }
-
-                    break;
                 case 'noun':
-                    items = vocab.nouns[parts[1]];
+                    items = vocab.noun[parts[1]];
                     output = output + items[Math.floor(Math.random() * items.length)];
                     break;
-                case 'simile':
-                    items = vocab.similes[parts[1]];
+                case 'adj':
+                    items = vocab.adj[parts[1]];
+                    output = output + items[Math.floor(Math.random() * items.length)];
+                    break;
+                case 'verb':
+                    items = vocab.verb[parts[1]];
+                    output = output + items[Math.floor(Math.random() * items.length)];
+                    break;
+                case 'punc':
+                    items = vocab.punc;
+                    output = output + items[Math.floor(Math.random() * items.length)];
+                    break;
+                case 'gerund':
+                    items = vocab.gerund;
+                    output = output + items[Math.floor(Math.random() * items.length)];
+                    break;
+                case 'adv':
+                    items = vocab.adv;
                     output = output + items[Math.floor(Math.random() * items.length)];
                     break;
             }
-
+                
             sentence = sentence.substr(close_pos + 1);
         } else {
             output = output + sentence;

@@ -1,5 +1,189 @@
 var vocab = {
-    "verbs" : {
+    "noun" : {
+        "good" : [
+            "hope",
+            "trigger warning",
+            "protest",
+            "action",
+            "hunger strike",
+            "pressure",
+            "freedom",
+            "expression",
+            "LGBT Community",
+            "activist",
+            "blackness",
+            "black body",
+            "drag queen",
+            "drag persona",
+            "research",
+            "learning",
+            "threshing floor"
+        ],
+        "neutral" : [
+            "Tufts",
+            "system",
+            "policy",
+            "rule",
+            "culture",
+            "leeway",
+            "students",
+            "final exam",
+            "action",
+            "disruption",
+            "normalcy",
+            "campus",
+            "argumentation",
+            "disputation",
+            "debate",
+            "essence",
+            "opinion",
+            "conviction",
+            "parameter",
+            "controversy",
+            "argumentation",
+            "dichotomy"
+        ],
+        "bad" : [
+            "racism",
+            "ignorance",
+            "complicity",
+            "patriarchy",
+            "cisheteropatriarchy",
+            "cis-het scum",
+            "greek life",
+            "frat",
+            "rage",
+            "anti-blackness",
+            "whiteness",
+            "injustice",
+            "violence",
+            "radical",
+            "republican",
+            "complicity",
+            "silence",
+            "oppression",
+            "status quo",
+            "fallacy",
+            "vomit",
+            "distraction",
+            "tautology",
+            "redefinition"
+        ]
+    },
+    "adj" : {
+        "good" : [
+            "LGBT",
+            "marginalized",
+            "diverse",
+            "multicultural",
+            "open",
+            "liberal",
+            "genuine",
+            "polemical",
+            "academic"
+        ],
+        "neutral" : [
+            "systematic",
+            "systemic",
+            "student",
+            "mild",
+            "powerful",
+            "immense",
+            "on-campus",
+            "nationwide",
+            "androgynous",
+            "androsexual",
+            "drag",
+            "personal",
+            "entrenched"
+        ],
+        "bad" : [
+            "racist",
+            "classist",
+            "homophobic",
+            "transphobic",
+            "queerphobic",
+            "homotransqueerphobic",
+            "oppressive",
+            "violent",
+            "literally violent",
+            "cis",
+            "het",
+            "cis-het",
+            "white",
+            "male",
+            "republican",
+            "conservative",
+            "silent",
+            "complicit",
+            "apathetic",
+            "relativist",
+            "false"
+        ],
+        "marginalized" : [
+            "black",
+            "queer",
+            "feminine",
+            "femme",
+            "queerfemme",
+            "blackfemme",
+            "trans",
+            "genderqueer",
+            "indigenous",
+            "female",
+            "aboriginal"
+        ]
+    },
+    "verb" : {
+        "good" : [
+            "indict",
+            "fight",
+            "highlight"
+        ],
+        "neutral" : [
+            "turn",
+            "shatter"
+        ],
+        "bad" : [
+            "silence",
+            "complicitize",
+            "appropriate",
+            "monopolize",
+            "subvert"
+        ]
+    },
+    "punc" : [
+            ";",
+            ":",
+            ",",
+            "--",
+            "..."
+    ],
+    "gerund" : [
+        "protesting",
+        "oppressing",
+        "attempting",
+        "deracializing",
+        "presenting"
+    ],
+    "adv" : [
+        "thus",
+        "thusly",
+        "racially",
+        "marginally",
+        "obscenely",
+        "literally",
+        "immensely",
+        "fundamentally",
+        "globally",
+        "unwittingly",
+        "accordingly"
+    ]
+};
+
+
+
+/*    "verbs" : {
         "sex" : [
             ["fuck", "fucked", "fucking"],
             ["hammer", "hammered", "hammering"],
@@ -495,4 +679,4 @@ var vocab = {
             "an otter's pocket"
         ]
     }
-};
+}; */
