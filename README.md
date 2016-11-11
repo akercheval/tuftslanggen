@@ -1,6 +1,7 @@
 # Tufts Language Generator
 In perhaps my most controversial project yet, the Tufts Language Generator brings all the magic of Tufts University's elitist language to you at the click of a button!
 This will soon be on a website once I redefine the html and css a little bit. Keep your eyes peeled, you cis-het scum!
+Check it out [here](https://akercheval.github.io/tuftslanggen/).
 
 ## Requirements
 * Bower
