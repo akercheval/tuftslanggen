@@ -114,6 +114,8 @@ var vocab = {
             "entrenched"
         ],
         "bad" : [
+            "pejorative",
+            "unsolicited",
             "damaging",
             "Trump-supporting",
             "regressive",
@@ -174,6 +176,7 @@ var vocab = {
             "shatter"
         ],
         "bad" : [
+            "undercut",
             "blur",
             "regress",
             "silence",
@@ -201,6 +204,7 @@ var vocab = {
         "presenting"
     ],
     "adv" : [
+        "historically",
         "explicitly",
         "implicitly",
         "complicitly",
